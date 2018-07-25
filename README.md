@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # cucumber-maven-example
 This is sample cucumber + maven  project in Java. It shows how to upload test result file on JIRA instance using [QMetry for JIRA - Test Management](https://marketplace.atlassian.com/plugins/com.infostretch.QmetryTestManager/cloud/overview).  
 
@@ -91,3 +92,7 @@ mvn test
 It will generate `surefile-reports`. 
 
 Addionally, right after test completion, test result file will be uploaded on your JIRA instance if you have provided correct details in properties file. 
+=======
+# cucumber-jvm-maven
+Example cucumber jvm maven project
+>>>>>>> 72ddcbf6482f5280b556b6b7e9e6487d21b017fe
