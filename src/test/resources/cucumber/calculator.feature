@@ -8,17 +8,17 @@ Feature: Calculator
     When I add 2 and 3
     Then the result should be 5
     
-    Scenario: Add two numbers
+    Scenario: Subtract two numbers
     Given I have a calculator
     When I add 4 and 3
     Then the result should be 7
     
-    Scenario: Add two numbers
+    Scenario: Multiply two numbers
     Given I have a calculator
     When I add 1 and 3
     Then the result should be 4
     
-    Scenario: Add two numbers
+    Scenario: Divide two numbers
     Given I have a calculator
     When I add 2 and 1
     Then the result should be 3
