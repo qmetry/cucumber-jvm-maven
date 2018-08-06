@@ -27,7 +27,18 @@ public class CalculatorSteps {
     public void i_add_and(int arg1, int arg2) throws Throwable {
         calculator.add(arg1, arg2);
     }
-
+    @When("^I subtract (\\d+) and (\\d+)$")
+    public void i_subtract_and(int arg1, int arg2) throws Throwable {
+        calculator.subtract(arg1, arg2);
+    }
+    @When("^I multiply (\\d+) and (\\d+)$")
+    public void i_multiply_and(int arg1, int arg2) throws Throwable {
+        calculator.multiply(arg1, arg2);
+    }
+    @When("^I divide (\\d+) and (\\d+)$")
+    public void i_divide_and(int arg1, int arg2) throws Throwable {
+        calculator.divide(arg1, arg2);
+    }
     @Then("^the result should be (\\d+)$")
     public void the_result_should_be(int result) throws Throwable {
         assertEquals(result, calculator.getResult());
